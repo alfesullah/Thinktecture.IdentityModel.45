@@ -18,7 +18,7 @@ namespace Thinktecture.IdentityModel
             s = s.Replace('/', '_'); // 63rd char of encoding
             
             return s;
-        }
+        } 
 
         public static byte[] Decode(string arg)
         {
